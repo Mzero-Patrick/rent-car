@@ -9,8 +9,8 @@ body{
     background-color: white;
 }
 .background{
-    background-image:url(images/carcorrection.png);
-    
+    background-image:url(images/car.png);
+    opacity: 0.9;
     background-size: cover;
     background-color: repeat, no repeat;
     height: 500px;
@@ -33,7 +33,7 @@ body{
 }
 .background .header .logo h1{
     font-size: 25px;
-    color: rgb(140, 92, 3);
+    color: rgb(234, 156, 12);
 
 }
 .background .header .logo h2{
@@ -44,8 +44,9 @@ body{
 .background .header .navbar a {
     justify-content:space-evenly ;
     gap: 20px;
-    color: rgb(167, 238, 25);
+    color: rgb(234, 156, 12);
     font-size: 20px;
+    font: italic bold 16px Arial, sans-serif;
     text-decoration: none;
      margin: 10px;
      padding: 14px;
@@ -67,23 +68,26 @@ body{
 }
 .background .header2 h1{
     font-size: larger;
-    color: rgb(140, 92, 3);
+    color: rgb(4, 63, 88);
+    font: italic bold 25px Arial, sans-serif;
     
 
 
 }
 .background .header2 p{
-    color:rgb(140, 92, 3);
+    color:rgb(4, 63, 88);
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: italic bold 28px Arial, sans-serif;
+    
 }
 .background .header2 .play{
     display: flex;
 
 }
 .background .header2 .play h2{
-    color: rgb(167, 238, 25);
+    color: rgb(4, 63, 88);
     font-size: 15px;
+     font: italic bold 20px Arial, sans-serif;
 
 }
 
